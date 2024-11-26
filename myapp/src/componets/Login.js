@@ -8,7 +8,8 @@ export default function Login(){
     }
     return(
         <div>
-            <h1> Hello User!</h1>
+            <h1> Login here!</h1>
+            <button onClick={aunthenticate}>Login</button>
         </div>
     );
 }
